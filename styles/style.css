@@ -84,13 +84,13 @@
  .hyperlinked-word3 {
   top: 50%;
   left: 0%;
-  transform: translate(-100%, 50%);
+  transform: rotate(0.25turn) translate(-25%, 150%);
  }
 
  .hyperlinked-word4 {
   top: 50%;
   right: 0%;
-  transform: translate(100%, 0);
+  transform: rotate(0.25turn) translate(-25%, -150%);;
  }
 
 
