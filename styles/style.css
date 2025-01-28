@@ -1,0 +1,107 @@
+ /* CSS for the container that holds the image and words */
+ #rotating-container {
+   position: relative;
+   bottom: 00;
+   right: 00;
+   width: min(100vh, 70vw);
+   height: min(100vh, 100vw);
+   animation: rotation 360s infinite linear;
+
+ }
+
+
+ /* CSS for the rotating image */
+ #rotating-image {
+   position: fixed;
+   width: 100%;
+   height: 100%;
+   object-fit: contain;
+   object-position: center;
+   margin: 0 auto;
+ }
+
+ @keyframes rotation {
+   from {
+     transform: rotate(0deg);
+   }
+
+   to {
+     transform: rotate(360deg);
+   }
+ }
+ .hyperlinked-word {
+  position: absolute;
+  display: inline-block;
+  margin: 0;
+  font-size: clamp(1rem, 5vw, 100px);
+  text-align: left;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;;
+ }
+
+ /* CSS for the hyperlinked words */
+ .hyperlinked-word1 {
+  top: 0%;
+  right: 50%;
+  transform: translate(50%, -50%);
+ }
+
+ .hyperlinked-word2 {
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+ }
+
+ .hyperlinked-word3 {
+  top: 50%;
+  left: 0%;
+  transform: translate(-100%, 50%);
+ }
+
+ .hyperlinked-word4 {
+  top: 50%;
+  right: 0%;
+  transform: translate(100%, 0);
+ }
+
+
+ /* CSS for page manifesto */
+.manifesto.html {
+   position: relative;
+   left: 000px;
+   top: 000px;
+   display: inline-block;
+   margin: 10px;
+   font-size: 60px;
+   text-align: left;
+   text-decoration: none;
+   color: white;
+ }
+
+ * {
+   color: white;
+ }
+
+ ul {
+   list-style-type: none;
+   padding: 0;
+ }
+
+ .container {
+   margin: 0 auto;
+   width: min(95vw, 75rem);
+ }
+
+ body {
+   background-color: black
+ }
+
+ .no-overflow {
+  overflow: hidden;
+ }
+
+ .html, body {
+  margin: 0;
+  padding: 0;
+ }
