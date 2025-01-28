@@ -1,5 +1,5 @@
 # Niksen website
-Site for the Niksen project by Jabe Sverre Oost.
+Site for the Niksen project by [Jabe Sverre Oost](https://jabesverre.com).
 
 ## Contributor's guide
 To modify this repository:
