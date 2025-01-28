@@ -1,0 +1,14 @@
+:root {
+    --white: #fff;
+    --black: #000;
+
+    --text-color: var(--white);
+    --background-color: var(--black);
+    
+    --paragraph-font: serif;
+    --paragraph-line-height: 1.5em;
+    --paragraph-front-weight: 400;
+
+    --header-line-height: 1.2em;
+    --header-font-weight: 700;
+}

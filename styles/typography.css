@@ -1,0 +1,49 @@
+* {
+    font-size: clamp(1rem, .8vw, 1.5rem);
+    color: var(--text-color);
+    font-family: var(--paragraph-font);
+    font-weight: var(--paragraph-font-weight);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p{
+    margin-bottom: 1.33em;
+    line-height: var(--paragraph-line-height);
+}
+
+li {
+    line-height: var(--paragraph-line-height);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: var(--header-font-weight);
+    line-height: var(--header-line-height);
+    margin-bottom: .66em
+}
+
+h1 {
+    font-size: clamp(1.8em, 1.8vw, 4rem);
+}
+
+h2 {
+    font-size: clamp(1.3rem, 0.95vw, 2rem);
+}
+
+h2 {
+    font-size: clamp(1.2rem, 0.93vw, 2rem);
+}
+
+ul {
+    margin-bottom: 2em;
+}
