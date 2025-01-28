@@ -1,12 +1,48 @@
+ @import url('normalize.css');
+ 
  /* CSS for the container that holds the image and words */
+ html, body {
+   margin: 0;
+   padding: 0;
+   font-size: 100%;
+ }
+
+ * {
+  font-size: clamp(1rem, .75vw, 2rem);
+ }
+
+ h1, h2, h3, h4, h5, h6, a, p{
+   margin: 0;
+   padding: 0;
+   margin-bottom: 1.33em;
+   line-height: 1.4em
+ }
+
+ h1, h2, h3, h4, h5, h6 {
+   font-weight: 700;
+   line-height: 1.22em;
+   margin-bottom: .66em
+ }
+
+ h1 {
+  font-size: clamp(1.33rem, 1.4vw, 3rem);
+ }
+
+ h2 {
+  font-size: clamp(1.11rem, 1.1vw, 3rem);
+ }
+
+ ul {
+  margin-bottom: 2em;
+ }
+ 
  #rotating-container {
    position: relative;
    bottom: 00;
    right: 00;
-   width: min(100vh, 70vw);
-   height: min(100vh, 100vw);
+   width: 100%;
+   height: 100%;
    animation: rotation 360s infinite linear;
-
  }
 
 
@@ -82,10 +118,21 @@
    padding: 0;
  }
 
+ .styled-list {
+  list-style: circle;
+  padding-left: 1em;
+ }
+
  .container {
-   margin: 0 auto;
-   width: min(95vw, 75rem);
+   margin: 2em auto;
+   width: min(95vw, 60rem);
    padding: .5em;
+ }
+
+ .wide-container {
+    width: min(100vh, 100vw);
+    height: min(100vh, 100vw);
+    margin: 0 auto;
  }
 
  body {
