@@ -84,6 +84,7 @@
  .container {
    margin: 0 auto;
    width: min(95vw, 75rem);
+   padding: .5em;
  }
 
  body {
