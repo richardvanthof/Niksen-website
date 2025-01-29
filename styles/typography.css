@@ -29,7 +29,8 @@ h5,
 h6 {
     font-weight: var(--header-font-weight);
     line-height: var(--header-line-height);
-    margin-bottom: .66em
+    margin-bottom: .66em;
+    font-family: var(--heading-font);
 }
 
 h1 {

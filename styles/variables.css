@@ -15,4 +15,5 @@
     --header3-size: clamp(1.2rem, 0.93vw, 2.3rem);
     --header-line-height: 1.2em;
     --header-font-weight: 700;
+    --heading-font: sans-serif;
 }
