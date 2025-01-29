@@ -8,10 +8,13 @@ nav {
 
 .nav-logo {
     height: 100%;
+    width: fit-content;
     object-fit: contain;
     animation: rotation 100s infinite linear;
     cursor: pointer;
+    display: block;
 }
+
 
 .nav-logo:hover {
     transform: scale(1.5);
