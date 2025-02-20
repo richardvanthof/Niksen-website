@@ -30,3 +30,10 @@ body {
   overflow: hidden;
 }
 
+.desc {
+  position: absolute;
+  bottom: 0;
+  padding: 1em;
+  color: #ebe3e3;
+}
+
